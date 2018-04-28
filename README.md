@@ -1,7 +1,8 @@
-# READY TO USE REACT WEB APP (Implemented with REACT AND REDUX STORE)
-# COMPONENTS CALENDAR - NOTIFICATION - TABLE - Forms - SIDEBAR
+# READY TO USE REACT APP (REACT AND REDUX STORE)
+## COMPONENTS
+CALENDAR - NOTIFICATION - TABLE - Forms - SIDEBAR
 
-## RUN APP WITH 3 STEPS ONLY
+## RUN APP WITH 3 EASY STEPS
 1. **Install [Node]
 2. **Clone this repository.** - `git clone https://github.com/hassanajazch/react-components`
 3. **Install Node Packages.** - `npm install`
