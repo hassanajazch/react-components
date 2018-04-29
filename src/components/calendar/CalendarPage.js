@@ -33,7 +33,7 @@ class CalendarPage extends React.Component {
       }
     ];
     return (
-      <div className="rbc-calendar">
+      <div className="main-app">
         <BigCalendar
           events={events}
           views={['month', 'agenda', 'week']}

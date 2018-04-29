@@ -17,7 +17,7 @@ class NotificationPage extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="main-app">
         <h1>Hit Button To Generate Notification</h1>
         <button onClick={this.generateNoitifcation} className="button">Click Me</button>
       </div>

@@ -40,7 +40,7 @@ class ManageCoursePage extends React.Component {
 
   render() {
     return(
-      <div>
+      <div className="main-app">
         <CourseForm
            allAuthors={this.props.authors}
            onChange={this.updateCourseState}

@@ -32,6 +32,11 @@ nav {
   margin-top: 30px;
 }
 
+.main-app{
+  min-height: 500px ;
+  margin-top: 30px;
+}
+
 .tab-height {
   margin-top: 20px;
 }

@@ -5,6 +5,7 @@ import CalendarPage from './components/calendar/CalendarPage';
 import NotificationPage from './components/notification/NotificationPage';
 import CoursesPage from './components/course/CoursesPage';
 import ManageCoursePage from './components/course/ManageCoursePage';
+import TabPage from './components/tabs/TabPage';
 
 
 export default (
@@ -14,5 +15,6 @@ export default (
     <Route path="course" component={ManageCoursePage} />
     <Route path="course/:id" component={ManageCoursePage} />
     <Route path="notification" component={NotificationPage} />
+    <Route path="tabs" component={TabPage} />
   </Route>
 );

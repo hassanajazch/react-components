@@ -12,7 +12,6 @@ import './styles/styles.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/toastr/build/toastr.min.css';
 import '../node_modules/react-tabs/style/react-tabs.css';
-import '../node_modules/react-router-tabs/styles/react-router-tabs.css';
 
 const store = configureStore();
 store.dispatch(loadCourse());
