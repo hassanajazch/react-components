@@ -14,3 +14,6 @@ This command will keep watching changing in file and every time you save somethi
 I have implemented all major components in this project which are extensively used for applications.
 This project will help to understand the implementation of react components and also this project can be used as starter kit for web apps.
 Project have organized directory for react routes, redux store, connection of react with redux and thunk.
+
+## Preview:
+![alt text](https://drive.google.com/file/d/17RNtacSG_x31QBr1Rj9ylUCwsXIt1Ibr/view?usp=sharing)
