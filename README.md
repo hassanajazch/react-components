@@ -16,4 +16,4 @@ This project will help to understand the implementation of react components and 
 Project have organized directory for react routes, redux store, connection of react with redux and thunk.
 
 ## Preview:
-![alt text](https://drive.google.com/file/d/17RNtacSG_x31QBr1Rj9ylUCwsXIt1Ibr/view?usp=sharing)
+![alt text](https://raw.githubusercontent.com/hassanajazch/react-components/master/assets/preview/app-preview.png)
