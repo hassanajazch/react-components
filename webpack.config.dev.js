@@ -17,7 +17,24 @@ export default {
     filename: 'bundle.js'
   },
   devServer: {
-    contentBase: path.resolve(__dirname, 'src')
+    contentBase: path.resolve(__dirname, 'src'),
+    stats: {
+      assets: true,
+      children: false,
+      chunks: false,
+      hash: false,
+      modules: false,
+      publicPath: false,
+      timings: true,
+      version: false,
+      warnings: true,
+      colors: {
+        green: '\u001b[32m'
+      }
+    },
+    headers: {
+      "Access-Control-Allow-Origin": "*"
+    }
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
@@ -30,7 +47,7 @@ export default {
       {test: /\.eot(\?v=\d+\.\d+\.\d+)?$/, loader: 'file'},
       {test: /\.(woff|woff2)$/, loader: 'url?prefix=font/&limit=5000'},
       {test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/, loader: 'url?limit=10000&mimetype=application/octet-stream'},
-      {test: /\.svg(\?v=\d+\.\d+\.\d+)?$/, loader: 'url?limit=10000&mimetype=image/svg+xml'}
+      {test: /\.(png|gif|jpe?g|svg|ico)$/, loader: 'url?limit=10000&mimetype=image/svg+xml'}
     ]
   }
 };
