@@ -19,8 +19,12 @@ class TabPage extends React.Component {
             <Tab>Setting</Tab>
           </TabList>
 
-          <TabPanel>
-            <h2>Message will be shown here :)</h2>
+          <TabPanel className="message-top-margin">
+            <h3 className="inbox-message">hello</h3>
+            <h3 className="inbox-message inbox-message-guest">Hi, How are you?</h3>
+            <h3 className="inbox-message">I am fine. Where have you been?</h3>
+            <h3 className="inbox-message inbox-message-guest">I was out of country in last week, so could not talk you.</h3>
+            <h3 className="inbox-message">Ok, let's meet soon</h3>
           </TabPanel>
           <TabPanel>
             <h2>This is your news feed. :)</h2>

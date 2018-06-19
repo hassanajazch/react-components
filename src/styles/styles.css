@@ -84,3 +84,19 @@ nav {
   margin-left: 25px;
   width: 239px;
 }
+
+.inbox-message {
+  font-size: 20px;
+  background: #c8fba1;
+  padding: 10px;
+  width: 300px;
+  border-radius: 15px;
+}
+
+.inbox-message-guest {
+  margin-left: 130px;
+}
+
+.message-top-margin {
+  margin-top: 40px;
+}
