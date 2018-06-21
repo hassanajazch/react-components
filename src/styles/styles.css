@@ -100,3 +100,20 @@ nav {
 .message-top-margin {
   margin-top: 40px;
 }
+
+.news-feed-images {
+  width: 122px;
+  height: 88px;
+}
+
+.news-feed {
+  display: flex;
+  margin-top: 15px;
+  background-color: #f5f6fb;
+}
+
+.news-feed > h3{
+  margin: 11px;
+  padding: 3px;
+  font-size: 20px;
+}

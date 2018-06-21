@@ -2,6 +2,8 @@ import React from 'react';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import ReactDOM from 'react-dom';
 import { Link, IndexLink} from 'react-router';
+import news1  from "../../../assets/newsfeed/fifa.jpg";
+import news2  from "../../../assets/newsfeed/trump.jpg";
 
 class TabPage extends React.Component {
   constructor(props, context) {
@@ -27,7 +29,16 @@ class TabPage extends React.Component {
             <h3 className="inbox-message">Ok, let's meet soon</h3>
           </TabPanel>
           <TabPanel>
-            <h2>This is your news feed. :)</h2>
+            <div>
+              <div className="news-feed">
+                <img src={news1} className="news-feed-images"/>
+                <h3> Fifa is rocking the world....</h3>
+              </div>
+              <div className="news-feed">
+                <img src={news2} className="news-feed-images"/>
+                <h3> Trump make a big news...</h3>
+              </div>
+            </div>
           </TabPanel>
           <TabPanel>
             <h2>Your profile and personal info. :)</h2>
