@@ -35,6 +35,8 @@ nav {
 .main-app{
   min-height: 500px ;
   margin-top: 30px;
+  float: left;
+  width: 90%;
 }
 
 .tab-height {
@@ -43,7 +45,7 @@ nav {
 
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 300px; /* Set the width of the sidebar */
+    width: 20%; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
@@ -51,6 +53,7 @@ nav {
     background-color: #3174ad; /* Blue */
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 15px;
+    float: left;
 }
 
 .sidenav a {
