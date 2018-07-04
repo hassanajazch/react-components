@@ -9,6 +9,7 @@ import routes from './routes';
 import {loadCourse} from './actions/courseActions';
 import {loadAuthors} from './actions/authorActions';
 import './styles/styles.css';
+import './styles/news-feed.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/toastr/build/toastr.min.css';
 import '../node_modules/react-tabs/style/react-tabs.css';
